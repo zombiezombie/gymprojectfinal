@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+
+    <link rel="shortcut icon" href="icon.png"/>
+    <title>Schedule</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
+<body>
+<div id="search">
+    <form>
+        <img src="searchicon.png" width="50px" height="20px"> <input type="text" name="search" placeholder="Search">
+    </form>
+</div>
+<div id="header">
+    <div id="logo"><img src="name.png" /></div>
+    <div id="menu">
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="free trial.html">Free Trial</a></li>
+        </ul>
+    </div>
+</div>
+<br><br><h1>SCHEDULE AND LOCATIONS</h1><br><br>
+
+<i>Gladiator Fitness Boot Camps are now available at the following locations.</i><br><br><br>
+
+
+
+
+
+<div id="container">
+
+
+    <div id="div1">
+        <div id="map" style="width:100%;height:500px"></div>
+
+        <script>
+            function myMap() {
+                var mapCanvas = document.getElementById("map");
+                var mapOptions = {
+                    center: new google.maps.LatLng(51.5, -0.2),
+                    zoom: 10
+                }
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+            }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    </div>
+
+
+
+
+
+    <div id="div3">
+
+    </div>
+
+
+
+    <div id="div4">
+        <br><br><b>George Washington MS</b><br><br>
+        1005 Mount Vernon Ave., Alexandria<br><br>
+        <b>Meeting Point:</b>Sidewalk Across Athletic Field <br><br>
+        Mon-Fri 5:30am - 6:30am<br><br><br>
+
+        NEW EVENING CLASS!<br><br>
+        Mon, Wed, & Friday 6PM – 7PM
+    </div>
+
+
+
+    <div id="div5">
+
+    </div>
+
+
+
+    <div id="div6">
+        <b>James Long Park</b><br><br>
+        4603 James Madison Hwy, Haymarket<br><br>
+        <b>Meeting Point:</b> Left Parking Lot after Park Entrance<br><br>
+        Mon,Wed & Thur 5:30am - 6:30am<br><br>
+        Saturday 6am
+    </div>
+
+
+
+    <div id="div7">
+
+    </div>
+
+
+
+    <div id="div8">
+        <b>Linton Hall School </b><br><br>
+        9535 Linton Hall Rd, Bristow<br><br>
+        <b>Meeting Point: </b>Parking Lot next to Basketball Court<br><br>
+        Tue. & Thur 6 -7pm
+    </div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+
+    <h3><p><font color="#f9bb00">UNLEASH YOUR INNER STRENGTH!<br>
+        JOIN THE RANKS OF GLADIATOR FITNESS BOOT CAMP NOW!</font></p></h3><br><br>
+    &copy WEBSITE DESIGN BY Alamgir Khan , ALi Akbar ,Habib Javed
+</div>
+</body>
+</html>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="icon.png"/>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+<div id="small">
+
+</div>
+<div id="header">
+    <div id="logo"><img src="name.png" /></div>
+    <div id="menu">
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="free trial.html">Free Trial</a></li>
+        </ul>
+    </div>
+</div>
+
+
+    <img src="contact.jpg" width="100%" height="600px">
+<br>
+    <video controls width="1400" height="500" autoplay>
+        <source src="movie.mp4" type="video/mp4">
+        var vid = document.getElementById("myVideo");
+        vid.volume = 0.5;
+    </video>
+
+
+<div id="container">
+    <br>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="first_name">First Name<p> </p> </label>
+        <input type="name" name="first_name" id="first_name" required="required">
+        <br>
+        <label for="last_name">Last Name<p> </p> </label>
+        <input type="name" name="last_name" id="last_name" required="required">
+        <br>
+        <label for="email">Email<p> </p> </label>
+        <input type="email" name="email" id="email" pattern="[(?=.*[A-Z])a-z0-9._%+-]+@[(?=.*[A-Z])a-z0-9.-]+\.[a-z]{2,}$" required="required">
+        <br>
+        <label for="phone_number">Phone Number<p> </p></label>
+        <input type="phone_no" name="phone_no" id="numeric" pattern="/d+" required="required">
+        <br>
+        <input type="submit" name="submit" >
+    </form>
+</div>
+
+<div id="footer">
+
+    <h3><p><font color="#f9bb00">UNLEASH YOUR INNER STRENGTH!<br>
+        JOIN THE RANKS  NOW!</font></p></h3><br><br>
+    &copy WEBSITE DESIGN BY ALAMGIR KHAN ,HABIB JAVAID, ALI AKBAR
+</div>
+
+</body>
+</html>
